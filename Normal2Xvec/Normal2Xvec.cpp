@@ -50,7 +50,7 @@ int main(int argc, char* argv[])
 		if (i < 3) {
 			cout << "Before: " << i << " row:";
 			for (auto& ele : vec) {
-				cout << " " << ele;
+				cout << " " << (int)ele;
 			}
 			cout << endl;
 			cout << "After: " << i << " row:";
