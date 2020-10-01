@@ -19,7 +19,7 @@ int main(int argc, char* argv[])
 	string outName = argv[2];
 	
 	ifstream inFile(inName, ifstream::binary);
-	ofstream outFile(outName, ifstream::binary);
+	ofstream outFile(outName, ofstream::binary);
 
 	if (!inFile) {
 		cout << "File: " << inName << " can't be opened" << endl;
